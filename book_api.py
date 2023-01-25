@@ -23,7 +23,7 @@ livros = [
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return '/livros extension'
 
 
 @app.route('/livros', methods=['GET'])
